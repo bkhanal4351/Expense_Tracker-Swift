@@ -16,6 +16,7 @@
 		438011392B6C418700FFB6DE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438011382B6C418700FFB6DE /* Settings.swift */; };
 		4380113B2B6C46C500FFB6DE /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380113A2B6C46C500FFB6DE /* Categories.swift */; };
 		4380113D2B6C7C5A00FFB6DE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4380113C2B6C7C5A00FFB6DE /* .gitignore */; };
+		43B8C3CF2B6D420B0012B2B4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8C3CE2B6D420B0012B2B4 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		438011382B6C418700FFB6DE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		4380113A2B6C46C500FFB6DE /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		4380113C2B6C7C5A00FFB6DE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		43B8C3CE2B6D420B0012B2B4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		438011232B6C38C800FFB6DE /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				43B8C3CD2B6D41E50012B2B4 /* Models */,
 				438011332B6C3A2200FFB6DE /* Components */,
 				438011322B6C39D900FFB6DE /* Screens */,
 				438011242B6C38C800FFB6DE /* ExpenseTrackerApp.swift */,
@@ -96,6 +99,14 @@
 			children = (
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		43B8C3CD2B6D41E50012B2B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43B8C3CE2B6D420B0012B2B4 /* Category.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				438011372B6C3AE300FFB6DE /* Reports.swift in Sources */,
 				438011392B6C418700FFB6DE /* Settings.swift in Sources */,
 				4380113B2B6C46C500FFB6DE /* Categories.swift in Sources */,
+				43B8C3CF2B6D420B0012B2B4 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

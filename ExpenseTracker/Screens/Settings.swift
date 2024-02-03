@@ -10,6 +10,7 @@ import SwiftUI
 struct Settings: View {
     var body: some View {
         NavigationView{
+            
             List {
                 NavigationLink {
                     Categories()
@@ -27,8 +28,10 @@ struct Settings: View {
                     Text("Erase Data")
                 }
             }
+            .toolbar(.visible, for: .tabBar)
             .navigationTitle("Settings")
             .padding(.top, 16)
+            
         }
         
     }
